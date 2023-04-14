@@ -1,24 +1,28 @@
-**How to login to github and setup in your local machine**
-
-1. Create a github account
-2. Install git in your local machine, you can download it from [here](https://git-scm.com/downloads). Then follow the instructions to install it.
-3. Open git bash and type the following command to configure your name and email address.
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "Your Email"
-```
-
-4. login to your github account and create a new repository.
-5. Copy the url of the repository and clone it to your local machine using the command:
-
-```bash
-git clone <url>
-```
-
-6. Now you can see the repository in your local machine. You can make changes to the files in the repository and commit the changes to the repository.
-
 **_How to Commit new changes to the repository_**
+
+You can contribute to this repository in Two ways:
+
+**1. Using the Github website**
+If you want to edit the files in the repository using the Github website, follow the steps below:
+
+1. Go to the repository
+2. Click on the file you want to edit.
+3. Click on the edit button.
+4. Make changes to the file.
+5. Scroll down to the bottom of the page and write a commit message.
+6. Click on the commit changes button.
+
+If you want to add a new file to the repository, follow the steps below:
+
+1. Go to the repository.
+2. Click on the add file button.
+3. Click on the create new file button.
+4. Type the file name and write the content of the file.
+5. Scroll down to the bottom of the page and write a commit message.
+6. Click on the commit new file button.
+
+**2. Using the Git Bash**
+If you don't have any github account and want to contribute to the repository using the Git Bash, follow the steps [From here](#how-to-commit-new-changes-to-the-repository-using-the-git-bash)
 
 1. Clone the repository to your local machine using the command:
 
@@ -72,3 +76,23 @@ git checkout <branch_name>
 git checkout master
 git merge <branch_name>
 ```
+
+**How to login to github and setup in your local machine**
+
+1. Create a github account
+2. Install git in your local machine, you can download it from [here](https://git-scm.com/downloads). Then follow the instructions to install it.
+3. Open git bash and type the following command to configure your name and email address.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+```
+
+4. login to your github account and create a new repository.
+5. Copy the url of the repository and clone it to your local machine using the command:
+
+```bash
+git clone <url>
+```
+
+6. Now you can see the repository in your local machine. You can make changes to the files in the repository and commit the changes to the repository.
