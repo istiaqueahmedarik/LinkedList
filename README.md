@@ -22,7 +22,7 @@ If you want to add a new file to the repository, follow the steps below:
 6. Click on the commit new file button.
 
 **2. Using the Git Bash**
-If you don't have any github account and want to contribute to the repository using the Git Bash, follow the steps [From here](#how-to-commit-new-changes-to-the-repository-using-the-git-bash)
+If you don't have any github account and want to contribute to the repository using the Git Bash, follow the steps [From here](#section-1)
 
 1. Clone the repository to your local machine using the command:
 
@@ -77,7 +77,8 @@ git checkout master
 git merge <branch_name>
 ```
 
-**How to login to github and setup in your local machine**
+<h2 id="section-1">How to login to github and setup in your local machine
+</h2>
 
 1. Create a github account
 2. Install git in your local machine, you can download it from [here](https://git-scm.com/downloads). Then follow the instructions to install it.
